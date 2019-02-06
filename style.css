@@ -304,13 +304,8 @@ footer h1
         width: 96vw;
     }
 
-    #bloc_page, header, #banniere_image, section, article, aside, footer{
-        width: 94vw;
-    }
-    
     #bloc_page{
-        display: flex;
-        flex-flow: column wrap;
+        width: 94vw;
     }
 
     #banniere_image{
@@ -366,11 +361,12 @@ footer h1
 /*--------------------smartphone--------------------*/
 @media only screen and (max-width: 600px) {
     body{
-        width: 96vw;
+        width: 98vw;
     }
     #bloc_page, header, section, footer{
         width: 94vw;
     }
+
     #bloc_page{
         font-size: 0.7em;
     }
@@ -437,11 +433,7 @@ footer h1
 
     #photo_zozor{
         grid-area: photo_zozor;
-        background-image: url(images/zozor_classe.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center center;
-        float: right;
+        
     }
 
     #photo_zozor > img{
@@ -484,23 +476,18 @@ footer h1
     }
 
     #mes_photos > h1{
-        background-color: red;
-        width: 60%;
+        width: 70%;
         margin-left: 110%;
     }
 
-    #test > img{
-        width: 100%;
-        height: 100%;
-    }
+   /*  #test > img{
+        width: 90%;
+        height: 90%;
+    } */
 
     #test{
         width: 100vw;
         display: flex;
         flex-flow: row nowrap;
     }
-
-    
-
-    
 }
